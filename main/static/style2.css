@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url('w1.jpg');
+  }
+
+title{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+ color: white;
+}
+
+p1{
+    color: white;
+   }
+p2{
+    color: white;
+   }
+.box {
+    display: inline-block ;
+    width: 45%; 
+    height: auto;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }

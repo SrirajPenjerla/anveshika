@@ -1,0 +1,35 @@
+{% extends "base_out.html" %}
+<style>
+
+
+
+    p1{
+        word-wrap: break-word;
+        
+    }
+    p2{
+        word-wrap: break-word;
+        
+        
+    }
+</style>
+
+{% block content %}
+<h1>HERE ARE YOUR PRODUCT PRICES  : </h1>
+<p1 >AMAZON:
+    <ul>
+        
+        {% for i in o1 %}
+            <li>{{ i }}</li>
+        {% endfor %}
+        </ul>
+</p1>
+<br>
+<p2>FLIPKART:
+    <ul>
+        {% for i in o2 %}
+            <li>{{ i }}</li>
+        {% endfor %}
+        </ul>
+</p2>
+{% endblock %}
