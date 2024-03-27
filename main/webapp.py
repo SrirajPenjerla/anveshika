@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 
 import output_generator
 
-app = Flask(__name__,template_folder=(r'C:\Users\srira\OneDrive\Desktop\projects\webscrapping\main\Tempaltes'))
+app = Flask(__name__,template_folder=(r'main\Tempaltes'))
 
 @app.route('/')
 def home():
