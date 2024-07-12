@@ -35,7 +35,7 @@ Anveshika is a project that combines web scraping and Flask to fetch prices of p
 1. Run the Flask application:
 
    ```bash
-   python app.py
+   python webapp.py
    ```
 
 2. Open your web browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000).
@@ -44,7 +44,7 @@ Anveshika is a project that combines web scraping and Flask to fetch prices of p
 
 ## Project Structure
 
-- `app.py`: Main Flask application file.
+- `webapp.py`: Main Flask application file.
 - `templates/`: Contains HTML templates.
 - `static/`: Holds static files (e.g., CSS, images).
 
